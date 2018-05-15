@@ -8,7 +8,7 @@
 	<version>1.0.0</version>
 	<vqmver>2.6.3</vqmver>
 	<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
-	<file name="catalog/model/catalog/product.php" error="log">
+	<file path="catalog/model/catalog/" name="product.php" error="log">
 		<operation error="skip">
 			<search position="replace"><![CDATA[$sql .= " " . implode(" AND ", $implode) . "";]]></search>
 			<add><![CDATA[
