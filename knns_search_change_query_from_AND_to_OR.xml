@@ -12,7 +12,9 @@
 		<operation error="skip">
 			<search position="replace"><![CDATA[$sql .= " " . implode(" AND ", $implode) . "";]]></search>
 			<add><![CDATA[
+					// kanenas: knns_search_change_query_from_AND_to_OR.xml (start) <<
 					$sql .= " " . implode(" OR ", $implode) . "";
+					// kanenas: knns_search_change_query_from_AND_to_OR.xml (end) <<
 			]]></add>
 		</operation>
 	</file>
